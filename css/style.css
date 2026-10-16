@@ -1,0 +1,67 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.navbar {
+  padding-block: 20px;
+}
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-item .nav-link.active {
+  color: black;
+}
+.navbar .nav-item {
+  position: relative;
+}
+.navbar .nav-item .nav-link {
+  padding-inline: 0;
+}
+
+.navbar-nav .nav-item .nav-link.active::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background-color: #000;
+  left: 0;
+
+  right: 0;
+  bottom: 0;
+}
+
+.open-bars {
+  font-size: 25px;
+  color: #000;
+
+}
+.navbar-toggler{
+  border: 0;
+  padding: 0;
+}
+.navbar-toggler:focus{
+ box-shadow: none;
+
+}
+
+.open-bars:focus {
+  display: none;
+}
+.close-btn{
+  display: none;
+}
+
+.navbar-toggler:not(collapsed) .open-bars{
+  display: ;
+}
+
+.navbar-toggler:not(collapsed) .close-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
